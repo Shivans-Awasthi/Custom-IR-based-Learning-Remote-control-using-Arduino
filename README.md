@@ -13,6 +13,10 @@ Infrared communication: Infrared communication is point to point communication b
 # IV. PROPOSED MODEL/ARCHITECTURE/METHODOLOGY/MODEL TOOL 
 The following schematic shows a simple IR receiver and sender circuit that uses the parts from the part list above. (a)Infrared Receiver and Sender circuit (b) Infrared Receiver and Sender circuit connections to Arduino UNO The required input is taken from the IR sensor by pointing the remote control of the device towards the IR sensor and pressing the required key to replicate , the Arduino will replicate the data and assign it to one of the switches. We may add as many switches as needed to implement many functions. And also an LED to indicate learning and use mode connected to pin 13. 
 
+![alt text](https://github.com/Shivans-Awasthi/Custom-IR-based-Learning-Remote-control-using-Arduino/blob/main/circuit1.png?raw=true)
+![alt text](https://github.com/Shivans-Awasthi/Custom-IR-based-Learning-Remote-control-using-Arduino/blob/main/circuit2.png?raw=true)
+
+
 # V. IMPLIMENTATION AND RESULTS 
 We can add a toggle or slide switch to power on the Arduino and the connect circuit, one of the push buttons is assign to switch between learning mode and use mode . When the learning button is pressed an indication is shown on the Arduino as well as the indicator LED as a long continuous glow, during this time the key to be learned is press from the device remote pointing to the IR receiver. The moment command is received from the remote the Arduino will process it and assign it to one of the circuit switches and the indicator LED stops glowing. This way we can add many functions to our learning remote control which can even be of different devices. Now the learning remote is ready to be used as an alternative remote control for all learned functions and will work on devices associated with it. The remote was tested on remote control speakers, air conditioners, and television on which the result found was positive.
 
